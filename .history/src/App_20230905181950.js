@@ -1,10 +1,10 @@
  import React from 'react'
- import PasswordGenerator from './Components/PasswordGenerator'
+ import PasswordGenerator from './Components/RandomPass'
  
  export default function App() {
    return (
      <div>
-       <PasswordGenerator/>
+       <RandomPass/>
      </div>
    )
  }

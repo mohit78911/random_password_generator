@@ -29,8 +29,13 @@ function PasswordGenerator() {
       <h1 style={{ color: "white" }}>PASSWORD GENERATOR</h1>
       <div className="backTheame">
         <div>
-          <label>PASSWORD LENGTH : </label>{" "}
+          <label>  LENGTH : </label>{" "}
           <input
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                generatePassword();
+              }
+            }}
             className="inputfield"
             type="number"
             value={length}
