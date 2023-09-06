@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.backTheame {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 15px;
+  width: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
+.inputfield {
+  border: none;
+  border-radius: 5px;
+  background: rgb(255, 255, 255, 0.3);
+  color: rgb(0, 0, 0);
+}
+
+.inputfield:focus {
+  outline: none;
+}
+
+/* body{
+  background-image: url('https://cutewallpaper.org/21/background-gif-1920x1080/Stars-Space-Effect-Background-HD-GIF.gif');
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.lengthInput {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+}
+
+
+.lengthContain {
+  background: white;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: auto;
+  ma
+}
